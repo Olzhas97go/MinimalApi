@@ -73,8 +73,11 @@ POST /users
 Content-Type: application/json
 
 {
-  "username": "newuser",
-  "email": "newuser@example.com"
+  
+"username": "newuser",
+  
+"email": "newuser@example.com"
+
 }
 
 Post a New Message
@@ -84,10 +87,15 @@ POST /posts
 Content-Type: application/json
 
 {
-  "title": "New Post Title",
-  "body": "This is the content of the new post.",
-  "authorId": 1
+  
+"title": "New Post Title",
+  
+"body": "This is the content of the new post.",
+  
+"authorId": 1
+
 }
+
 Retrieve All Posts
 http
 Copy code
@@ -99,9 +107,13 @@ POST /follow
 Content-Type: application/json
 
 {
-  "followerId": 1,
-  "followeeId": 2
+  
+"followerId": 1,
+  
+"followeeId": 2
+
 }
+
 Like a Post
 http
 Copy code
@@ -109,9 +121,13 @@ POST /like
 Content-Type: application/json
 
 {
-  "postId": 10,
-  "userId": 1
+  
+"postId": 10,
+  
+"userId": 1
+
 }
+
 Testing
 For instructions on how to execute the automated tests for this project, refer to the testing/README.md file.
 
